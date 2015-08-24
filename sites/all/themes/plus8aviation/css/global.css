@@ -218,16 +218,20 @@ input, textarea {
 	box-sizing: border-box;  
 }
 .section-header {
-	margin-bottom: -20px;
-	-webkit-margin-after: 0;
+	-webkit-margin-after: 20px;
 }
 .zone-content, .zone-preface {
 	margin-bottom: 20px;
 }
-.region-header-first, .region-preface-first {
+.region-sidebar-first {
 	margin-top: 20px;
 	-webkit-margin-before: 20px;
 }
+
+/*.region-header-first, .region-preface-first {
+	margin-top: 20px;
+	-webkit-margin-before: 20px;
+}*/
 
 /* for admin screens */
 .node-type-list dt a,
@@ -305,7 +309,6 @@ ul.nice-menu-down li:last-child a {
 	padding-right: 0;
 }
 ul.nice-menu-down {
-/*	visibility: hidden;*/
 	width: 100%;
 }
 ul.nice-menu ul li {
@@ -326,7 +329,8 @@ ul.nice-menu-down li.menuparent:hover {
 ul.nice-menu ul li {
 	font-size: 1em;
 }
-ul.nice-menu li a {
+ul.nice-menu li a,
+ul.nice-menu li .nolink {
 	color: white;
 }
 ul.nice-menu a:hover,
@@ -347,7 +351,11 @@ ul.nice-menu-down .menuparent a {
 	padding-right: 0;
 }
 ul.nice-menu li a.active {
-    color: #1b326d;
+	border-bottom: 3px solid #1b326d;
+	color: white;
+}
+ul.nice-menu a, ul.nice-menu .no-link {
+    padding: 0.2em 5px;
 }
 
 /* CAROUSELS */
@@ -434,6 +442,14 @@ ul.nice-menu li a.active {
 .region-sidebar-second {
 	margin-bottom: 20px;
 }
+.view-Product-images img {
+    border-radius: 5px 5px 0 0;
+}
+.view-Product-images .views-field-body {
+    background-color: #d7d4d5;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+}
 .view-product-images img {
     border-radius: 5px 5px 0 0;
 }
@@ -446,18 +462,24 @@ ul.nice-menu li a.active {
 /* SIDEBAR */
 
 .block-menu-block {
-	padding: 40px 20px;
-    background-color: #87c7ee;
-	border-radius: 0 0 10px 10px; 
+	padding: 20px;
+    background-color: #0298D8;
+	border-radius: 5px; 
 }
 .block-menu-block ul.menu li {
-    padding: 5px;
+    padding: 5px 10px;
+    font-size: 1.1428em; /*16px @ 14px */
 }
 .block-menu-block a {
 	color: white;
 }
 .block-menu-block a:hover {
-	color: #0298d8;
+	color: white;
+	border-bottom: 3px solid #1b326d;
+}
+.block-menu-block li a.active {
+	font-weight: bold;
+	color: white;
 }
 
 /* FOOTER */
