@@ -348,4 +348,6 @@ settings[alpha_region_footer_second_columns] = '12'
 settings[alpha_region_footer_second_suffix] = ''
 settings[alpha_region_footer_second_weight] = '2'
 settings[alpha_region_footer_second_css] = ''
+fonts[google_fonts_api][] = "PT Sans&subset=latin#700"
+fonts[google_fonts_api][] = "PT Sans&subset=latin#regular"
 version = '1.x'

@@ -1,11 +1,11 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
 .logo-img {
-	margin: 20px 0;
+	margin-bottom: 10px;
 	width: auto;
 }
 .logo-img img {
-	width: auto;
+	width: 120px;
 }
 h1.site-name, h2.site-name {
 	font-size: 2.571em; /*36px @ 14px*/
@@ -23,10 +23,14 @@ ul.nice-menu-down {
 	float: right;
 	width: auto;
 }
-ul.nice-menu li {
+ul.nice-menu li,
+ul.nice-menu-down li.menuparent,
+ul.nice-menu-down li.menuparent:hover {
 	font-size: 1.2em;
 }
-ul.nice-menu-down li {
+ul.nice-menu-down li,
+ul.nice-menu-down li.menuparent,
+ul.nice-menu-down li.menuparent:hover {
 	padding: 0 1em;
 }
 .front .view-carousels .view-content .views-field-field-image {

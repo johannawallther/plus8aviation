@@ -9,7 +9,9 @@
 h1.site-name, h2.site-name {
 	font-size: 2em; /*28px @ 14px*/
 }
-ul.nice-menu-down li {
+ul.nice-menu-down li,
+ul.nice-menu-down li.menuparent,
+ul.nice-menu-down li.menuparent:hover {
 	padding: 0 0.5em;
 }
 .view-carousels .view-header h2 {
