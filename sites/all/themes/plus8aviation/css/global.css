@@ -314,8 +314,8 @@ ul.nice-menu-down {
 ul.nice-menu ul li {
 	width: 85px;
 }
-ul.nice-menu-down li li:last-child a {
-	padding-right: 5px;
+ul.nice-menu-down li li:last-child, ul.nice-menu-down li:last-child a {
+	padding-right: 1em;
 }
 ul.nice-menu li,
 ul.nice-menu-down li.menuparent,
@@ -401,6 +401,9 @@ ul.nice-menu a, ul.nice-menu .no-link {
 }
 .zone-postscript .block-block-7 {
 	background-color: #d7d4d5;
+}
+table {
+	margin: 0;
 }
 .front table {
 	border: 0 none;
