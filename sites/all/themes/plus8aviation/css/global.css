@@ -413,7 +413,7 @@ ul.nice-menu-down li:last-child a {
 	padding-right: 0;
 }
 ul.nice-menu-down li li:last-child, 
-ul.nice-menu-down li:last-child a {
+ul.nice-menu-down li li:last-child a {
 	padding-right: 1em;
 }
 ul.nice-menu-down ul {
