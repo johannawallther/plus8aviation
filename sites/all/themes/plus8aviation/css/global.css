@@ -513,14 +513,16 @@ ul.nice-menu-down li li.menuparent:hover {
 .zone-postscript .block-block-7 {
 	background-color: #d7d4d5;
 }
-table {
-	margin: 0;
-}
+
 .front table {
 	border: 0 none;
 	display: inline-block;
 	margin: 10px;
 	width: auto;
+}
+table {
+	margin: 0;
+	border: 0 none;
 }
 .front tr {
 	text-align: left;
