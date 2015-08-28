@@ -236,6 +236,9 @@ input, textarea {
 	margin-top: 20px;
 	-webkit-margin-before: 20px;
 }
+.section-content {
+	margin-bottom: 20px;
+}
 
 /*.region-header-first, .region-preface-first {
 	margin-top: 20px;
@@ -436,11 +439,7 @@ ul.nice-menu-down li.menuparent,
 ul.nice-menu-down li.menuparent:hover {
 	background: url("../images/arrow_down_white.png") right center no-repeat; /* LTR */
 }
-ul.nice-menu li .nolink {
-	padding-right: 5px;
-}
-ul.nice-menu li a,
-ul.nice-menu li .nolink {
+ul.nice-menu li a {
 	color: white;
 }
 ul.nice-menu a:hover,
@@ -455,7 +454,7 @@ ul.nice-menu-down li ul li ul {
 }
 
 ul.nice-menu-down .menuparent a {
-  padding-right: 0px; /* LTR */
+  padding-right: 5px;
 }
 
 ul.nice-menu-down li li.menuparent {
@@ -488,9 +487,16 @@ ul.nice-menu-down li li.menuparent:hover {
 .front .zone-content {
 	display: none;
 }
-
+.front .view-carousel img,
+.view-Product-images img {
+	margin-bottom: 0;
+}
 /* BLOCKS */
 
+.zone-postscript-first, .zone-postscript-second,
+.zone-postscript-third {
+	margin-bottom: 20px;
+}
 .zone-postscript .block {
 	text-align: center;
 	background-color: white;
@@ -498,6 +504,12 @@ ul.nice-menu-down li li.menuparent:hover {
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	margin: 20px 0;
+}
+.zone-postscript .block p {
+    padding: 0 20px;
+}
+.zone-postscript .block p.btn {
+    padding: 5px;
 }
 .zone-postscript .block-block-7 {
 	padding: 10px;
@@ -523,6 +535,9 @@ ul.nice-menu-down li li.menuparent:hover {
 table {
 	margin: 0;
 	border: 0 none;
+}
+td, th {
+    padding: 4px 0;
 }
 .front tr {
 	text-align: left;
