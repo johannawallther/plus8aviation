@@ -518,14 +518,30 @@ ul.nice-menu-down li li.menuparent:hover {
 	border-radius: 10px 10px 0 0;
 	-moz-border-radius: 10px 10px 0 0;
 	-webkit-border-radius: 10px 10px 0 0;
+	margin-bottom: 0;
 }
 .zone-postscript h2 {
 	font-size: 2em;
+	margin: 10px;
 }
 .zone-postscript .block-block-7 {
 	background-color: #d7d4d5;
 }
-
+.zone-postscript a:hover {
+	color: #1b326d;
+}
+.equal-height-container .block,
+.equal-height-element .region-inner, 
+.equal-height-element .block, 
+.equal-height-element .block-inner {
+	height: 100%;
+}
+.equal-height-element #region-content .region-inner {
+	height: auto;
+}
+.equal-height-container {
+	overflow: hidden;
+}
 .front table {
 	border: 0 none;
 	display: inline-block;
