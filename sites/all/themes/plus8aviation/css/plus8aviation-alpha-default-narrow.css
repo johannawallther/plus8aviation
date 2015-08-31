@@ -3,7 +3,7 @@
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
  
- .logo-img img {
+.logo-img img {
 	width: 120px;
 }
 h1.site-name, h2.site-name {
