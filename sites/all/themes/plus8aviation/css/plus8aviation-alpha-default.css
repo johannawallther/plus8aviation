@@ -28,10 +28,12 @@ ul.nice-menu-down li.menuparent,
 ul.nice-menu-down li.menuparent:hover {
 	font-size: 1.2em;
 }
-ul.nice-menu-down li,
+ul.nice-menu-down li {
+	padding: 0 1em;
+}
 ul.nice-menu-down li.menuparent,
 ul.nice-menu-down li.menuparent:hover {
-	padding: 0 1em;
+	padding: 0 1.2em;
 }
 .front .view-carousels .view-content .views-field-field-image {
 	-webkit-box-shadow: -5px 5px 5px 0 #454545;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */

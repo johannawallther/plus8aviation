@@ -40,6 +40,12 @@ img {
 	border-radius: 5px;
 	margin-bottom: 20px;
 }
+.front .view-carousels img,
+.view-Product-images img,
+.zone-postscript .block img,
+.logo-img img {
+	margin-bottom: 0;
+}
 .logo-img img {
 	border-radius: 0;
 	width: 75px;
@@ -307,14 +313,9 @@ div.vertical-tabs {
 /*.block-nice-menus {
 	text-align: center;
 }
-
-
-
 ul.nice-menu-down {
 	width: 100%;
 }
-
-
 ul.nice-menu a:hover {
 	padding: 2px 5px;
 }
@@ -389,7 +390,7 @@ ul.nice-menu a {
 }
 
 ul.nice-menu ul {
-  top: 1.5em;
+  top: 1.8em;
   left: -1px; /* LTR */
   border: 0;
   border-top: 0 none;
@@ -467,7 +468,6 @@ ul.nice-menu-down li li.menuparent:hover {
   color: white;
 }
 
-
 /* CAROUSELS */
 
 .view-carousels .view-header h2 {
@@ -487,10 +487,7 @@ ul.nice-menu-down li li.menuparent:hover {
 .front .zone-content {
 	display: none;
 }
-.front .view-carousel img,
-.view-Product-images img {
-	margin-bottom: 0;
-}
+
 /* BLOCKS */
 
 .zone-postscript-first, .zone-postscript-second,
@@ -518,7 +515,6 @@ ul.nice-menu-down li li.menuparent:hover {
 	border-radius: 10px 10px 0 0;
 	-moz-border-radius: 10px 10px 0 0;
 	-webkit-border-radius: 10px 10px 0 0;
-	margin-bottom: 0;
 }
 .zone-postscript h2 {
 	font-size: 2em;
