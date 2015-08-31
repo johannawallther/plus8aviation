@@ -44,7 +44,7 @@ ul.nice-menu-down li.menuparent:hover {
 	-webkit-border-radius: 5px;
 }
 .view-carousels .view-header {
-	z-index: 10;
+	z-index: 9;
 	background-color: white;
 	position: absolute;
     width: 420px;
