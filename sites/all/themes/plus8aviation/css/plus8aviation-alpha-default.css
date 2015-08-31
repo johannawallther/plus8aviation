@@ -62,3 +62,9 @@ ul.nice-menu-down li.menuparent:hover {
 .front table {
 	margin: 20px;
 }
+.zone-postscript .block {
+	margin: 20px 0;
+}
+.zone-menu-wrapper {
+	height: 33px;
+}

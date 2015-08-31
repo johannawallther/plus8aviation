@@ -308,7 +308,7 @@ div.vertical-tabs {
 }
 .zone-menu-wrapper {
 	background-color: #0298D8;
-	height: 33px;
+	height: auto;
 }
 /*.block-nice-menus {
 	text-align: center;
@@ -420,6 +420,7 @@ ul.nice-menu-down li:last-child a {
 ul.nice-menu-down li li:last-child, 
 ul.nice-menu-down li li:last-child a {
 	padding-right: 1em;
+	border-radius: 0 0 5px 5px;
 }
 ul.nice-menu-down ul {
   left: 0; /* LTR */
@@ -455,7 +456,7 @@ ul.nice-menu-down li ul li ul {
   top: -1px;
 }
 ul.nice-menu-down .menuparent a {
-  padding-right: 5px;
+  padding-right: 1em;
 }
 ul.nice-menu-down li li.menuparent {
   background-color: #0298D8;
@@ -499,7 +500,8 @@ ul.nice-menu-down li li.menuparent:hover {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
-	margin: 20px 0;
+	margin: auto;
+	max-width: 380px;
 }
 .zone-postscript .block p {
     padding: 0 20px;
@@ -517,7 +519,7 @@ ul.nice-menu-down li li.menuparent:hover {
 }
 .zone-postscript h2 {
 	font-size: 2em;
-	margin: 10px;
+	padding: 10px;
 }
 .zone-postscript .block-block-7 {
 	background-color: #d7d4d5;
