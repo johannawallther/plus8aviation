@@ -580,6 +580,9 @@ td, th {
     letter-spacing: 0.1em; 
     padding: 5px;
 }
+.btn a:hover {
+	color: white;
+}
 .zone-postscript-wrapper {
 	background-color: #d7d4d5; /*#EDEAEB*/
 }
