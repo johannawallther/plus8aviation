@@ -377,6 +377,7 @@ ul.nice-menu ul {
   padding: 0;
   margin: 0;
   border-top: 0 none;
+  z-index: 10;
 }
 
 ul.nice-menu li {
@@ -453,11 +454,9 @@ ul.nice-menu-down li ul li ul {
   left: 0em; /* LTR */
   top: -1px;
 }
-
 ul.nice-menu-down .menuparent a {
   padding-right: 5px;
 }
-
 ul.nice-menu-down li li.menuparent {
   background-color: #0298D8;
   color: white
