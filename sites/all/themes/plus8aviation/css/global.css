@@ -525,12 +525,12 @@ ul.nice-menu-down li li.menuparent:hover {
 .zone-postscript a:hover {
 	color: #1b326d;
 }
-.equal-height-container .block,
+/*.equal-height-container .block,
 .equal-height-element .region-inner, 
 .equal-height-element .block, 
 .equal-height-element .block-inner {
 	height: 100%;
-}
+}*/
 .equal-height-element #region-content .region-inner {
 	height: auto;
 }
