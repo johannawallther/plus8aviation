@@ -1,5 +1,8 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
 
+.logo-img img {
+	width: auto;
+}
 h1.site-name, h2.site-name {
 	font-size: 2.2857em; /*36px @ 14px*/
 }
