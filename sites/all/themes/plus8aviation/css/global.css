@@ -48,7 +48,7 @@ img {
 }
 .logo-img img {
 	border-radius: 0;
-	width: 75px;
+	width: 220px;
 }
 #page {
   min-height: 100%;
@@ -94,6 +94,8 @@ a:hover {
 .site-name a:hover {
 	color: #1B326D;
 }
+h1.site-name, h2.site-name {
+	font-size: 0.9285em; /* 13px @14px */
 p {
 	margin: 0.8em 0;
 }
