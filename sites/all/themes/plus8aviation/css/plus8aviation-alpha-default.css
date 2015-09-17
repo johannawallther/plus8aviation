@@ -4,9 +4,6 @@
 	margin-bottom: 10px;
 	width: auto;
 }
-.logo-img img {
-	width: 120px;
-}
 h1.site-name, h2.site-name {
 	font-size: 2.2857em; /*36px @ 14px*/
 	line-height: 1;
