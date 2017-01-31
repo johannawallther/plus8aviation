@@ -24,3 +24,18 @@ ul.nice-menu-down li.menuparent:hover {
 .front table {
 	margin: 20px;
 }
+.view-hp-news-alert .views-field-field-read-more {
+	margin: 20px 40px 0 0;
+	display: inline-block;
+	max-width: 600px;
+}
+.view-hp-news-alert .views-field-field-image {
+	float: left;
+	margin: 20px 40px 20px 0;
+}
+.view-hp-news-alert .views-field-title,
+.view-hp-news-alert .views-field-field-homepage-blurb-text {
+	margin-right: 40px;
+	display: inline-block;
+	max-width: 600px;
+}

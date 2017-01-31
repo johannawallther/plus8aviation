@@ -254,17 +254,7 @@ input, textarea {
 .submitted-by {
 	color: grey;
 }
-.view-hp-news-alert .views-field-field-read-more {
-	margin: 20px 0;
-}
-.view-hp-news-alert .views-field-field-image {
-	float: left;
-	margin-right: 40px;
-}
-.view-hp-news-alert .views-field-title,
-.view-hp-news-alert .views-field-field-homepage-blurb-text {
-	margin-right: 40px;
-}
+
 /*.region-header-first, .region-preface-first {
 	margin-top: 20px;
 	-webkit-margin-before: 20px;
