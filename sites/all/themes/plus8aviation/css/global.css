@@ -235,8 +235,11 @@ input, textarea {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.section-header {
+/*.section-header {
 	-webkit-margin-after: 20px;
+}*/
+.region-preface-first {
+	margin-top: 20px;
 }
 .zone-content, .zone-preface {
 	margin-bottom: 20px;
